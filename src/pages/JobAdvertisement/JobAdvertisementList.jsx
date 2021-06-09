@@ -6,7 +6,7 @@ export default function JobAdvertisementList() {
   const [adverts, setAdverts] = useState([]);
 
   useEffect(() => {
-    let jobAdvertisemetService = new JobAdvertisementService();
+    let jobAdvertisementService = new JobAdvertisementService();
     jobAdvertisementService
       .getJobAdvertisements()
       .then((result) => setAdverts(result.data.data));

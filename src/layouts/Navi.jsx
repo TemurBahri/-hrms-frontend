@@ -9,7 +9,7 @@ export default function Navi() {
         <Container>
           <Menu.Item name="building outline">
             <Icon name="building outline" size="large"/>
-            HRMS
+            Hrms
           </Menu.Item>
           <Menu.Item name="Home" />
           <Menu.Item name="Job Advert" />
