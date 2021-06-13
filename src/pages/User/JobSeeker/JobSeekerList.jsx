@@ -15,7 +15,7 @@ export default function JobSeekerList() {
     <div>
       <Header as="h2">
         <Icon name="list alternate outline" />
-        <Header.Content>JobSeeker List</Header.Content>
+        <Header.Content>İş Arayanlar</Header.Content>
       </Header>
       <Table color="blue" key="blue">
         <Table.Header>

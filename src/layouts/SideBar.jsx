@@ -9,21 +9,27 @@ export default function SideBar() {
           name="bullhorn"
         >
           <Icon name="bullhorn" />
-          Job Title
+          İş Ünvanları
         </Menu.Item>
 
         <Menu.Item
           name="user"
         >
           <Icon name="user" />
-          Jobseeker
+          İş Arayanlar
         </Menu.Item>
 
         <Menu.Item
           name="user"
         >
           <Icon name="user" />
-          Employer
+          İş Verenler
+        </Menu.Item>
+        <Menu.Item
+          name="user"
+        >
+          <Icon name="user" />
+          İş Pozisyonları
         </Menu.Item>
       </Menu>
     </div>
