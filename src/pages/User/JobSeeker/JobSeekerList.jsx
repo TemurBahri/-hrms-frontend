@@ -15,7 +15,7 @@ export default function JobSeekerList() {
     <div>
       <Header as="h2">
         <Icon name="list alternate outline" />
-        <Header.Content>İş Arayanlar</Header.Content>
+        <Header.Content>Job Seeker List</Header.Content>
       </Header>
       <Table color="blue" key="blue">
         <Table.Header>
@@ -23,7 +23,8 @@ export default function JobSeekerList() {
             <Table.HeaderCell>First Name</Table.HeaderCell>
             <Table.HeaderCell>Last Name</Table.HeaderCell>
             <Table.HeaderCell>Email</Table.HeaderCell>
-            <Table.HeaderCell>Detail</Table.HeaderCell>
+            <Table.HeaderCell>Birth Date</Table.HeaderCell>
+            <Table.HeaderCell>Gender</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
 
@@ -33,6 +34,8 @@ export default function JobSeekerList() {
               <Table.Cell>{jobSeeker.firstName}</Table.Cell>
               <Table.Cell>{jobSeeker.lastName}</Table.Cell>
               <Table.Cell>{jobSeeker.email}</Table.Cell>
+              <Table.Cell>{jobSeeker.birthDate}</Table.Cell>
+              <Table.Cell>{jobSeeker.gender}</Table.Cell>
               <Table.Cell>
                 <Button>View</Button>
               </Table.Cell>

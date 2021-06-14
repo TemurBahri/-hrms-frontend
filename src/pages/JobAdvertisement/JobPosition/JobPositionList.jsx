@@ -21,14 +21,14 @@ export default function JobPositionList() {
       <Table color="blue" key="blue">
         <Table.Header>
           <Table.Row>
-            <Table.HeaderCell>Job Title</Table.HeaderCell>
+            <Table.HeaderCell>Name</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
 
         <Table.Body>
           {positions.map((position) => (
             <Table.Row key={position.id}>
-              <Table.Cell>{position.jobTitle}</Table.Cell>
+              <Table.Cell>{position.name}</Table.Cell>
             </Table.Row>
           ))}
         </Table.Body>

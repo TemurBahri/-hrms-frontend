@@ -23,8 +23,6 @@ export default function EmployeeList() {
           <Table.Row>
             <Table.HeaderCell>First Name</Table.HeaderCell>
             <Table.HeaderCell>Last Name</Table.HeaderCell>
-            <Table.HeaderCell>Email</Table.HeaderCell>
-            <Table.HeaderCell>Detail</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
 
@@ -33,7 +31,6 @@ export default function EmployeeList() {
             <Table.Row key={employee.id}>
               <Table.Cell>{employee.firstName}</Table.Cell>
               <Table.Cell>{employee.lastName}</Table.Cell>
-              <Table.Cell>{employee.email}</Table.Cell>
               <Table.Cell>
                 <Button>View</Button>
               </Table.Cell>

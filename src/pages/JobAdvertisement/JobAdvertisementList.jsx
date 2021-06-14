@@ -25,7 +25,7 @@ export default function JobAdvertisementList() {
             <Table.HeaderCell>Company Name</Table.HeaderCell>
             <Table.HeaderCell>City</Table.HeaderCell>
             <Table.HeaderCell>Open Position Count</Table.HeaderCell>
-            <Table.HeaderCell>Deadline</Table.HeaderCell>
+            <Table.HeaderCell>Application Deadline</Table.HeaderCell>
             <Table.HeaderCell>Is Open</Table.HeaderCell>
             <Table.HeaderCell>Detail</Table.HeaderCell>
           </Table.Row>
@@ -37,8 +37,8 @@ export default function JobAdvertisementList() {
               <Table.Cell>{advert.jobPosition.jobTitle}</Table.Cell>
               <Table.Cell>{advert.employer.companyName}</Table.Cell>
               <Table.Cell>{advert.city.name}</Table.Cell>
-              <Table.Cell>{advert.openPositionCount}</Table.Cell>
-              <Table.Cell>{advert.deadline}</Table.Cell>
+              <Table.Cell>{advert.numberOpenPositions}</Table.Cell>
+              <Table.Cell>{advert.applicationDeadline}</Table.Cell>
               <Table.Cell>{advert.open.toString()}</Table.Cell>
               <Table.Cell>
                 <Button>View</Button>

@@ -22,8 +22,7 @@ export default function EmployerList() {
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell>Company Name</Table.HeaderCell>
-            <Table.HeaderCell>Website</Table.HeaderCell>
-            <Table.HeaderCell>Email</Table.HeaderCell>
+            <Table.HeaderCell>WebAddress</Table.HeaderCell>
             <Table.HeaderCell>Phone Number</Table.HeaderCell>
             <Table.HeaderCell>Detail</Table.HeaderCell>
           </Table.Row>
@@ -33,8 +32,7 @@ export default function EmployerList() {
           {employers.map((employer) => (
             <Table.Row key = {employer.id}>
               <Table.Cell>{employer.companyName}</Table.Cell>
-              <Table.Cell>{employer.website}</Table.Cell>
-              <Table.Cell>{employer.email}</Table.Cell>
+              <Table.Cell>{employer.webAddress}</Table.Cell>
               <Table.Cell>{employer.phoneNumber}</Table.Cell>
               <Table.Cell>
                 <Button>View</Button>
