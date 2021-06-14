@@ -3,9 +3,11 @@ import { Button, Icon, Menu } from "semantic-ui-react";
 import { Container } from "semantic-ui-react";
 
 export default function Navi() {
+
+
   return (
     <div>
-      <Menu inverted fixed="top" size="large">
+      <Menu inverted fixed="top">
         <Container>
           <Menu.Item name="building outline">
             <Icon name="building outline" size="large"/>

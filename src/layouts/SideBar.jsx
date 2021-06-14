@@ -4,7 +4,7 @@ import { Icon, Menu } from 'semantic-ui-react'
 export default function SideBar() {
   return (
     <div>
-      <Menu inverted icon="labeled" vertical>
+      <Menu pointing vertical>
         <Menu.Item
           name="bullhorn"
         >

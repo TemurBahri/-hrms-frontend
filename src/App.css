@@ -1,14 +1,8 @@
-
-.App{
-
-  background-color: #28dd6e;
-  height:120ch;
+.App {
+  text-align: center;
 }
 
 .ui.main.container{
-  margin-top: 10em;
+  margin-top: 6em;
 }
 
-.ui.sidebar{
- margin-left: 2em;
-}

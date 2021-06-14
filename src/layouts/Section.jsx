@@ -12,32 +12,32 @@ export default function Section() {
     <div>
       <Grid>
         <Grid.Row>
-          <GridColumn size={14}>
+          <GridColumn width={12}>
             <JobSeekerList />
           </GridColumn>
         </Grid.Row>
         <Grid.Row>
-          <GridColumn size={14}>
+          <GridColumn width={12}>
             <EmployerList />
           </GridColumn>
         </Grid.Row>
         <Grid.Row>
-          <GridColumn size={14}>
+          <GridColumn width={12}>
             <JobAdvertisementList />
           </GridColumn>
         </Grid.Row>
         <Grid.Row>
-          <GridColumn size={14}>
+          <GridColumn width={12}>
             <JobTitleList />
           </GridColumn>
         </Grid.Row>
         <Grid.Row>
-          <GridColumn size={14}>
+          <GridColumn width={12}>
             <EmployeeList/>
           </GridColumn>
         </Grid.Row>
         <Grid.Row>
-          <GridColumn size={14}>
+          <GridColumn width={12}>
             <JobPositionList/>
           </GridColumn>
         </Grid.Row>
