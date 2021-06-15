@@ -5,12 +5,7 @@ export default function SideBar() {
   return (
     <div>
       <Menu fluid compact icon="labeled" vertical>
-        <Menu.Item
-          name="bullhorn"
-        >
-          <Icon name="bullhorn" />
-          İş Ünvanları
-        </Menu.Item>
+        
 
         <Menu.Item
           name="user"
@@ -28,7 +23,7 @@ export default function SideBar() {
         <Menu.Item
           name="user"
         >
-          <Icon name="user" />
+          <Icon name="bullhorn" />
           İş Pozisyonları
         </Menu.Item>
       </Menu>
