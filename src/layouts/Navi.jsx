@@ -7,7 +7,7 @@ export default function Navi() {
 
   return (
     <div>
-      <Menu inverted fixed="top">
+      <Menu size="large" inverted stackable>
         <Container>
           <Menu.Item name="building outline">
             <Icon name="building outline" size="large"/>
